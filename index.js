@@ -11,7 +11,7 @@ app.use(cors());
 app.use('/api/employee', employeeRoutes);
 
 app.get('/', (req, res) => {
-    res.send("Welcome to app");
+    res.send("Welcome to employee app");
 })
 
 app.listen(config.port, () => {
